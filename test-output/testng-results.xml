@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-02T06:23:59Z" name="Suite" finished-at="2024-07-02T06:24:18Z" duration-ms="19632">
+    <groups>
+    </groups>
+    <test started-at="2024-07-02T06:23:59Z" name="Test" finished-at="2024-07-02T06:24:18Z" duration-ms="19632">
+      <class name="org.login.ParameterPassing">
+        <test-method is-config="true" signature="befClass()[pri:0, instance:org.login.ParameterPassing@22e357dc]" started-at="2024-07-02T06:23:59Z" name="befClass" finished-at="2024-07-02T06:24:13Z" duration-ms="14542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befClass -->
+        <test-method signature="signInClick()[pri:-10, instance:org.login.ParameterPassing@22e357dc]" started-at="2024-07-02T06:24:13Z" name="signInClick" finished-at="2024-07-02T06:24:15Z" duration-ms="1931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInClick -->
+        <test-method signature="passValues(java.lang.String, java.lang.String)[pri:10, instance:org.login.ParameterPassing@22e357dc]" started-at="2024-07-02T06:24:15Z" name="passValues" finished-at="2024-07-02T06:24:18Z" duration-ms="2390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dominickaran95@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passValues -->
+        <test-method signature="screenshotMyAccount()[pri:13, instance:org.login.ParameterPassing@22e357dc]" started-at="2024-07-02T06:24:18Z" name="screenshotMyAccount" finished-at="2024-07-02T06:24:18Z" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotMyAccount -->
+      </class> <!-- org.login.ParameterPassing -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

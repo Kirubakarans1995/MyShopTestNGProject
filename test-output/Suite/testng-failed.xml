@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.test.ng.CProductInfoPage">
+        <methods>
+          <include name="viewPictures"/>
+          <include name="sizeSelect"/>
+          <include name="quantityIncrease"/>
+          <include name="addProductToCart"/>
+        </methods>
+      </class> <!-- org.test.ng.CProductInfoPage -->
+      <class name="org.test.ng.EShippingAndPayment">
+        <methods>
+          <include name="orderScreenshot"/>
+          <include name="choosePayment"/>
+          <include name="shippingAccept"/>
+        </methods>
+      </class> <!-- org.test.ng.EShippingAndPayment -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
